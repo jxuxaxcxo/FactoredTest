@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.left-panel {
+  width: 20%;
+  background-color: #333;
+  color: white;
+  height: auto;
+}
+
+.main-content {
+  width: 80%;
+  text-align: right;
+  height: 100%;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 100%;
+  background-color: #333;
+}
+
+mat-toolbar {
+  background-color: #444;
+  color: white;
+}
+
+mat-nav-list {
+  padding: 0;
+}
+
+mat-nav-list li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+mat-nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+mat-nav-list a:hover {
+  color: #ffd740;
+}

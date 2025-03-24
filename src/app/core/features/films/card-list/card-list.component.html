@@ -1,0 +1,6 @@
+<div class="card-container">
+  <ng-container *ngFor="let item of data">
+    <app-films-card *ngIf="isFilm(item)" [film]="item"></app-films-card>
+    <app-characters-card *ngIf="isCharacter(item)" [character]="item"></app-characters-card>
+  </ng-container>
+</div>

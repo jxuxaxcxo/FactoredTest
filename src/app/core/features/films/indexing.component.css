@@ -1,0 +1,18 @@
+.main-container {
+  background-color: gray;
+  height: 100%;
+}
+
+.filter-container {
+  padding: 16px;
+}
+
+app-card-list {
+  flex-grow: 1;
+}
+
+mat-paginator {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}

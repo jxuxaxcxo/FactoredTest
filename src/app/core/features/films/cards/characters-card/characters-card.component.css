@@ -1,0 +1,12 @@
+.film-card {
+  max-width: 400px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: rosybrown;
+}
+mat-card-title {
+  font-weight: bold;
+}
+mat-card-content {
+  font-size: 14px;
+}

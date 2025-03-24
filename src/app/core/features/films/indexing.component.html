@@ -1,0 +1,20 @@
+
+<div class="main-container">
+
+  <div class="filter-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Filter by Title</mat-label>
+      <input matInput [(ngModel)]="searchTerm" (input)="onSearchChange()" placeholder="Search by title">
+    </mat-form-field>
+  </div>
+
+  <div *ngIf="items.length > 0">
+    <app-card-list [data]="filteredItems"></app-card-list>
+
+    <mat-paginator [length]="totalItems"
+                  [pageSize]="pageSize"
+                  [pageIndex]="currentPage - 1"
+                  (page)="onPageChange($event)">
+    </mat-paginator>
+  </div>
+</div>
